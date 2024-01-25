@@ -1,0 +1,173 @@
+body {
+    background-color: #8dc63f;
+    font-family: "Arial";
+    padding: 0 10px;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+.title p {
+    font-size: 22px;
+    color: #39930d;
+    margin: 0;
+    margin-right: 34px;
+    margin-bottom: 10px;
+}
+
+.title b {
+    font-size: 44px;
+    display: block;
+}
+
+.title i {
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.title img {
+    margin-bottom: 20px;
+}
+
+.wrapper>img {  
+    width: 100%;
+}
+
+.contacts a {
+    font-size: 22px;
+    color: #39930d;
+    text-decoration: none;
+}
+
+.contacts p {
+    font-size: 14px;
+    color: #5a5a5a;
+    margin: 11px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.header-fild {
+    overflow: hidden;
+}
+
+.header-fild img {
+    object-fit: contain;
+    object-position: -450px;
+    height: 200px;
+}
+
+.football-description {
+    width: 100%;
+}
+
+.football-description h1 {
+    font-size: 24px;
+    color: #39930d;
+}
+
+.football-description p {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #343434;
+}
+
+.football-description p:last-child {
+    margin-bottom: 45px;
+}
+
+.football-partners {
+    width: 100%;
+}
+
+.football-partners p {
+    background-color: #39930d;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.menu {
+    padding-left: 20px;
+}
+
+.menu li {
+    margin-bottom: 16px;
+    list-style: none;
+}
+
+.football-partners a {
+    font-size: 14px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
+}
+
+.footer {
+    margin: 0 -15px;
+    background-color: #39930d;
+    padding: 15px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+}
+
+@media screen and (min-width: 425px){
+    .title {
+        display: flex;
+    }
+
+    .header-fild img {
+        object-position: -350px;
+    }
+}
+
+@media screen and (min-width: 650px){
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contacts {
+        text-align: right;
+    }
+
+    .header-fild img {
+        object-position: -200px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .football-description {
+        width: 60%;
+    }
+
+    .football-partners {
+        width: 35%;
+    }
+
+    .header-fild img {
+        object-position: 0;
+        height: unset;
+        width: 100%;
+    }
+}
