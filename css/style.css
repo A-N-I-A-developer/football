@@ -48,6 +48,10 @@ body {
     text-decoration: none;
 }
 
+.contacts a:hover {
+    text-decoration: underline;
+}
+
 .contacts p {
     font-size: 14px;
     color: #5a5a5a;
@@ -112,6 +116,10 @@ body {
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
+}
+
+.football-partners a:hover {
+    text-decoration: none;
 }
 
 .footer {
